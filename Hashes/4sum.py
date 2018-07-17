@@ -1,6 +1,6 @@
 # Input: Array A
 # Output: a list of all distinct indices i, j, k, l such that
-# A[i] + A[j] = A[k] + A[l]
+# A[i] + A[j] + A[k] + A[l] = 0
 # Source: https://www.interviewbit.com/problems/4-sum/
 import hashlib as h
 import bisect
