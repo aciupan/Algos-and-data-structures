@@ -1,3 +1,5 @@
+# Implementation of linked list operations.
+# Source: https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/
 class Node:
     def __init__(self, value):
         self.val    = value
@@ -102,6 +104,7 @@ class MyLinkedList:
             cur_index +=1
             cur_node = cur_node.next
 
+# Checks below:
 
         
 def printlist(llist):
@@ -112,21 +115,21 @@ def printlist(llist):
     print("end")
 
 # Your MyLinkedList object will be instantiated and called as such:
-obj = MyLinkedList()
-q = obj.get(0)
-print(q)
-obj.addAtTail(2)
-printlist(obj)
-obj.addAtHead(5)
-obj.addAtHead(50)
-obj.addAtHead(500)
-obj.addAtTail(20)
-obj.addAtTail(30)
-printlist(obj)
-obj.addAtIndex(0, 10)
-printlist(obj)
-obj.deleteAtIndex(6)
-printlist(obj)
+#obj = MyLinkedList()
+#q = obj.get(0)
+#print(q)
+#obj.addAtTail(2)
+#printlist(obj)
+#obj.addAtHead(5)
+#obj.addAtHead(50)
+#obj.addAtHead(500)
+#obj.addAtTail(20)
+#obj.addAtTail(30)
+#printlist(obj)
+#obj.addAtIndex(0, 10)
+#printlist(obj)
+#obj.deleteAtIndex(6)
+#printlist(obj)
 
 #print(q)
 # param_1 = obj.get(index)
