@@ -5,8 +5,8 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        max_nr = -math.inf
-        max_2nd = -math.inf
+        max_nr = -1
+        max_2nd = -1
         index = -1
         if len(nums) == 0:
             return -1
